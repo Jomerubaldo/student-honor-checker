@@ -22,12 +22,12 @@ const listStudent = [
   },
 ];
 
+// empty array
 const studentWithHonors = [];
 
 // for of loop
 for (let list of listStudent) {
   // destructuring each students detail in object
-
   const { name, grade } = list;
 
   // spread with ternary
