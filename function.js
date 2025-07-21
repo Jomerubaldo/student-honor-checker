@@ -30,7 +30,7 @@ for (let list of listStudent) {
   // destructuring each students detail in object
   const { name, grade } = list;
 
-  // spread with ternary
+  // ternary
   const isStudent = grade >= 90 ? true : false;
 
   // spread with ternary
