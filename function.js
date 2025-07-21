@@ -25,7 +25,6 @@ const listStudent = [
 const studentWithHonors = [];
 
 // for of loop
-// You cannot directly use for...of on an object, because for...of works only on iterables like arrays.
 for (let list of listStudent) {
   // destructuring each students detail in object
 
